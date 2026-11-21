@@ -1,0 +1,14 @@
+{
+  "name": "readers-haven-library",
+  "version": "1.0.0",
+  "description": "Static 5-page website (HTML + CSS) built with Parcel and served by Nginx in a multi-stage Docker image.",
+  "scripts": {
+    "build": "parcel build src/*.html --dist-dir dist --public-url ./ --no-cache"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  }
+}
